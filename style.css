@@ -14,6 +14,8 @@ body{
 h1{
     background-color: white;
 }
+@import url('styles/heder.css');
+@import url('styles/banner.css');
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
