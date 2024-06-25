@@ -57,8 +57,44 @@
 
     <section class="carrosel">
         <k2 class="carrosel-titulo">Novos lançamentos</k2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+<div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <div class="card">
+    <div class="card-descricao">
+        <div class="descricao">
+            <h3 class="descricao-titulo">Talvez você também se interesse por ...</h3>
+            <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
+            <p class="descricao-titulo">contr</p>     
+           </div>
+    </div>
+  </div>
     </section>
-    <script src=""
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+      });
+      </script>
 </body>
 
 </html>

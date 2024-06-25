@@ -16,6 +16,7 @@ h1{
 }
 @import url('styles/heder.css');
 @import url('styles/banner.css');
+@import url('styles/carrosel.css');
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
