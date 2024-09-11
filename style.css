@@ -1,3 +1,9 @@
+@import url(styles/heder.css);
+@import url(styles/banner.css);
+@import url(styles/carrosel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
 :root{
     --cor-de-fundo:#ebecee;
     --branco: white ;
@@ -7,6 +13,7 @@
     --azul: #002f52;
     --fonte-secundaria: "Josefin Sans";
 }
+
 body{
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
@@ -16,12 +23,7 @@ body{
 h1{
     background-color: white;
 }
-@import url(styles/heder.css);
-@import url(styles/banner.css);
-@import url(styles/carrosel.css);
-@import url(styles/topicos.css);
-@import url(styles/contato.css);
-@import url(styles/rodape.css);
+
 .cabeçalho {
     background-color: var(--branco);
     display: flex;
