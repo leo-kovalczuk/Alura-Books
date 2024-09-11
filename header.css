@@ -35,7 +35,7 @@
     display: block;
 }
 
-.lista-menu-titulo,{
+.lista-menu-titulo{
     color: var(--laranja);
     font-weight: 700;
 }
