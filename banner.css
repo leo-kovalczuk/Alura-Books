@@ -33,3 +33,12 @@
     background: url("./img/image\ copy\ 20.png") no-repeat;
     background-position: 1em;
 }
+@media screen and (min-width: 1024px) {
+    .banner-titulo {
+    font-size: 36px;
+    
+    }
+    }
+    .banner-pesquisa {
+      width: 50%;
+      }
