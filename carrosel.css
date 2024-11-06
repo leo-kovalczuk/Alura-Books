@@ -69,7 +69,7 @@ margin: 0.5em 0;
     .swiper-pagination{
       margin: 2em 0 3em 0;
     }
-    ,swiper {
+    .swiper {
       width: 60%;
     }
     .swiper-button-prev,
@@ -80,5 +80,26 @@ margin: 0.5em 0;
     .card{
       width: 40%;
       margin: 2em auto;
-
+    }
+    @media screen and (min-width: 1728px){
+      .carrossel-container {
+       display: flex;
+       margin: 0 20vw 3em 20vw;
+       align-items: center;
+      }}
+    .swiper-pagination{
+      margin: 1em 0;
+    }
+    .swiper{
+      width: 50%;
+    }
+    .descricao-titulo{
+      font-size: 32px;
+    }
+    .descricao{
+      margin-right: 2em;
+    }
+    .card{
+      width: 60%;
+      margin-left: 3em ;
     }
