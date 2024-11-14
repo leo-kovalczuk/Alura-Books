@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="carrosel.css">
     <link rel="stylesheet" href="topicos.css">
@@ -25,14 +25,12 @@
  <header class="cabecalho">
     <div class="container">
         <input type="checkbox" id="menu" class="container-botao">
-<label for="menu">
+<label for="menu" class="container-rotulo">
     <span class="cabecalho-menu-hamburguer container-imagem"></span>
 </label>
-<ul class="lista-menu">
-  <li class="lista-menu__titulo"> 
-     <li class="lista-menu__item">
-  </li>Categorias</li>
-  
+<ul class="lista-menu" >
+  <li class="lista-menu__titulo">Categorias</li>
+     <li class="lista-menu__item"> 
         <a href="#" class="lista-menu__link">Programação</a>
         </li>
         <li class="lista-menu__item">
@@ -52,27 +50,45 @@
        <h1 class="container-titulo"><b class="container-titulo-negrito">Alura</b>Books</h1>
 <ul class="opcoes">
     <input type="checkbox" id="opcoes-menu" class="opcoes-botao">
-    <label for="opcoes-menu" class="opcoes-rodulo">
+    <label for="opcoes-menu" class="opcoes-rotulo">
         <li class=" opcoes-item">Categorias</li>
     </label>
-    <ul class="lista-menu">
+    <ul class="lista-menu"> 
+    <li class="lista-menu-item">
+     <a href="#" class="lista-menu-link">Programação</a>
+    </li>
+     <li class="lista-menu-item">
+      <a href="#" class="lista-menu-link">Front-end</a>
+     </li>
+    <li class="lista-menu-item">
+     <a href="#" class="lista-menu-link">Infraestrutura</a>
+    </li>
+ <li class="lista-menu-item">
+      <a href="#" class="lista-menu-link">Business</a>
+    </li>
+    <li class="lista-menu-item">
+     <a href="#" class="lista-menu-link">Design & UX</a>
+    </li>   
+ </ul>
+ <li class="opcoes-item"><a href="#" class="opcoes-link">Favoritos</a></li>
+ <li class="opcoes-item"><a href="#" class="opcoes-link">Minha estante</a></li>
 </ul>
 <div class="container">
-<a href="#"><img src="./img/image copy.png" alt="Meus favoritos" class="container-imagem-transparente"></a>
-    <a href="#class=conatiner-link"><img src="./img/image copy 3.png" alt="Sacola de compras" class="container-imagem"></a>
-    <p class="container-texto"> minha Sacola</p>
-    <a href="#"><img src="./img/image copy 4.png" alt="Meu perfil" class="container-imagem"></a> 
-   <p class="container-texto">meu perfil</p>
+    <a href="#"><img src="./img/image copy.png" alt="Meus favoritos" class="container-imagem-transparente"></a>
+    <a href="#" class=conatiner-link><img src="./img/image copy 3.png" alt="Carrinhos de compras" class="container-imagem">
+    <p class="container-texto"> minha Sacola</p> </a>
+    <a href="#" class="conatiner-link"><img src="./img/image copy 4.png" alt="Meu perfil" class="container-imagem"> 
+   <p class="container-texto">Meu Perfil</p></a>
      </div>
     </header>   
 
     <section class="banner">
         <h2 class="banner-titulo">Já sabe por onde começar?</h2>
-        <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!
+        <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento!<p>
             <input type="search " class="banner-pesquisa" placeholder="Qaul será sua proxima leitura?">
     </section>
-    <li class=" opcoes item"<a href="#"href=#" class=" opcoes-link">favoritos</li>
-
+    
+    <li class=" opcoes item"  a href="#"href=# class=" opcoes-link"> favoritos</li>
     <section class="carrosel">
         <h2 class="carrosel-titulo">Novos lançamentos</k2>
         <!-- Slider main container -->
@@ -150,10 +166,10 @@
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-        </div class">
+        </div class>
     </div class=" card-descricao">
-    <div class=" descricao"
-    <img alt ="avaliação 5 estrelas">
+    <div class=" descricao" >
+    <img src="/img/Estrelinhas.svg" alt="avaliação 5 estrelas">
     <h3 class=" descricao-titulo-livro"> autora do mes</h3>
     <h3 class=" descricao-titulo-livro"> JUliana Agarakov</h2>
         <h2 class=" descricao-texto"> analista de sistemas e escritora, juliana é especialista em Front-end<p>
@@ -165,7 +181,6 @@
 <li class="botoes-item"><img src="./img/image copy 3.png" alt="adicionar ao carrinho"></li>
 </ul>
 <a href="#" class="botoes-ancora">Saiba mais</a>
-
 </div>
 </section>
     <section class="topicos">
