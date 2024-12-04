@@ -117,3 +117,7 @@ font-weight:700;
     display: block;
     width: auto;
 }
+
+ul{
+    list list-style-type: none;
+}
